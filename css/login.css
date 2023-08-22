@@ -2,8 +2,6 @@ body {
     height: 100vh;
     margin: 0;
     background: #7F7FD5;
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,12 +36,12 @@ body {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #1e373d;
-    color: white;
+    background-color: #430179;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .login-card button:hover {
-    background-color: #274e2f;
+    background-color: #1b003a;
 }
